@@ -1,3 +1,10 @@
+/*Border-box*/
+* { 
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box; 
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -49,4 +56,22 @@ body {
 	color: black;
     text-decoration: none;
     font-size: 1.5em;
+}
+
+/*=====================================*/
+/*Clearfix*/
+.clearfix:after {
+	visibility: hidden; 
+	display: block; 
+	font-size: 0; 
+	content: " "; 
+	clear: both; 
+	height: 0; }
+
+.columns {
+	float: left;
+	max-width: 30%;
+	text-align: center;
+	padding: 30px 0;
+	border: 3px solid red;
 }
