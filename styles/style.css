@@ -1,9 +1,20 @@
+/*Clearfix*/
+.clearfix:after {
+	visibility: hidden; 
+	display: block; 
+	font-size: 0; 
+	content: " "; 
+	clear: both; 
+	height: 0; }
+
 /*Border-box*/
 * { 
 		-moz-box-sizing: border-box; 
 		-webkit-box-sizing: border-box; 
 		box-sizing: border-box; 
 }
+
+/*=========================================*/
 
 body {
     margin: 0;
@@ -59,7 +70,23 @@ body {
 }
 
 /*=====================================*/
-/*Clearfix*/
+/*Gallery*/
+
+/*Gallery Header*/
+header {
+	padding: 20px;
+	background-color: grey;
+}
+
+/*Text style*/
+header a {
+	color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+/*Gallery Images*/
 
 section {
 	width: 100vw;
@@ -68,12 +95,13 @@ section {
 
 .columns {
 	float: left;
-	max-width: 30%;
+	max-width: 33.33%;
 	text-align: center;
-	padding: 30px 0;
-	border: 3px solid red;
+	padding: 30px;
+/*	border: 3px solid red; */
 }
 
 img {
 	max-width: 100%;
 }
+
