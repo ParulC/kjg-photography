@@ -3,25 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>My Photography Portfolio</title>
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  	<link rel="stylesheet" href="styles/normalize.css">
+  	<link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+
+      <!--Adding JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!--Fancybox links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
   </head>
   <body>
     <header>
       <nav class="flex-container">
         <div class="logo">
-          <a href="index.html"><h1>Photographer Name</h1></a>    
+          <a href="index.html"><h1>Kumasi Jay Gwynne</h1></a>    
         </div>
         <div class="menu">
-          <p>photographer@email.com</p>
+          <p>kumasi@gmail.com</p>
         </div>
       </nav>
     </header>
   	<main>
       <section>
         <div class="row clearfix">
-          <img src="images/photo30.jpg" alt="photo30">   
+          <a data-fancybox="gallery" href="images/photo30.jpg"><img src="images/photo30.jpg" alt="photo30"></a>   
           <img src="images/photo29.jpg" alt="photo29">   
           <img src="images/photo28.jpg" alt="photo28">
         </div>             
@@ -66,7 +73,7 @@
           <img src="images/photo4.jpg" alt="photo4">
         </div>             
         <div class="row clearfix">
-          <img src="images/photo3.jpg" alt="photo3">  
+          <a href="images/photo3.jpg" target="_blank"><img src="images/photo3.jpg" alt="photo3"></a>  
           <img src="images/photo2.jpg" alt="photo2">   
           <img src="images/photo1.jpg" alt="photo1">
         </div>             
