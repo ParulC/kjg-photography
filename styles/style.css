@@ -78,7 +78,8 @@ body {
 
 nav {
 	background: white;
-	width: 100%;
+	width: 95%; 
+	margin: 0 auto;
 }
 
 .logo{
@@ -113,12 +114,18 @@ footer p {
 	text-align: center;
 }
 
-
-/*Gallery Images*/
-
+/*Home page image*/
 section {
 	width: 100vw;
     height: 100vh;
+}
+
+/*Gallery Images*/
+
+.galleryRow {
+	width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 section img {
