@@ -22,13 +22,60 @@
 	padding: 10px 2% 10px 2%; 
 }
 
-/*=========================================*/
+/*=========Commen Elements=============*/
 
 body {
     margin: 0;
    	font-family: 'Roboto', sans-serif;
    	font-weight: 500;
+   	position: relative;
+   	height: 100%;
 }
+
+/****Header*****/
+
+nav {
+	background: white;
+	width: 100%; 
+	margin: 0 auto;
+}
+
+.logo{
+	width: 60%;
+}
+
+.logo a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo a h1 {
+	font-size: 1.75em;
+}
+
+.menu {
+	width: 40%;
+}
+
+.menu p {
+	text-align: right;
+}
+
+/****Footer****/
+footer {
+	background-color: white;
+	color: black;
+	width: 100%;
+	position: absolute;
+	height: 50px;
+	bottom: 0;
+}
+
+footer p {
+	text-align: center;
+}
+
+/*==========Home Page===========*/
 
 .heroImage{
 /*Hero image set as background*/
@@ -72,63 +119,14 @@ body {
     font-size: 1.6em;
 }
 
-/*=====================================*/
-/*Header*/
+/*=========Gallery Page================*/
 
-
-nav {
-	background: white;
-	width: 95%; 
-	margin: 0 auto;
-}
-
-.logo{
-	width: 60%;
-}
-
-.logo a {
-	text-decoration: none;
-	color: black;
-}
-
-.logo a h1 {
-	font-size: 1.75em;
-}
-
-.menu {
-	width: 40%;
-}
-
-.menu p {
-	text-align: right;
-}
-
-/***Footer****/
-footer {
-	background-color: white;
-	color: black;
-	margin: 15px;
-}
-
-footer p {
-	text-align: center;
-}
-
-/*Home page image*/
-section {
-	width: 100vw;
-    height: 100vh;
-}
-
-/*Gallery Images*/
-
-.galleryRow {
+.gallery {
 	width: 95vw;
-    height: 100vh;
     margin: 0 auto;
 }
 
-section img {
+.gallery img {
 	max-width: 30%;
 	float: left;
 	margin: 1.66%;
