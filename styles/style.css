@@ -30,14 +30,16 @@ body {
    	font-weight: 500;
    	position: relative;
    	height: 100%;
+   	background-color: #676767;
 }
 
 /****Header*****/
 
 nav {
-	background: white;
+	background-color: #676767;
 	width: 100%; 
 	margin: 0 auto;
+	color: white;
 }
 
 .logo{
@@ -46,7 +48,7 @@ nav {
 
 .logo a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 .logo a h1 {
@@ -63,8 +65,8 @@ nav {
 
 /****Footer****/
 footer {
-	background-color: white;
-	color: black;
+	background-color: #676767;
+	color: white;
 	width: 100%;
 	position: absolute;
 	height: 50px;
@@ -79,10 +81,11 @@ footer p {
 
 .heroImage{
 /*Hero image set as background*/
-	background: url(../images/photo0.jpg);
+	background: url(../images/kumasi_cover.jpg);
 	max-width: 100%;
     height: 80vh;
-   	background-size: cover;
+    background-repeat: no-repeat;
+   	background-size: auto;
    	background-position: center center;
     background-repeat: no-repeat;
 
@@ -131,4 +134,14 @@ footer p {
 	float: left;
 	margin: 1.66%;
 }
+
+.twocol img {
+	max-width: 45%;
+	margin: 1.66%;
+}
+
+.threecol img {
+	max-width: 90%;
+	margin: 1.66%;
+} 
 
